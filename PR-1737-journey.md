@@ -12,6 +12,8 @@ The root cause? Some LLM providers send hundreds of empty string chunks before r
 
 Two lines of Python. One merged PR. Streaming output now works for every LLM provider.
 
+Assaf Elovic, the creator of GPT Researcher and founder of Tavily, reviewed the PR personally, approved it with "this is great, thank you!", and merged it the same day. That kind of response from a project maintainer is what makes open-source contributions worth the effort.
+
 **Read the full story:** [PR #1737 Contribution Story](https://github.com/kiranvk-2011/gpt-researcher/blob/fix/streaming-empty-chunks-flush/PR-1737-journey.md#the-full-story)
 
 **View the PR:** [assafelovic/gpt-researcher#1737](https://github.com/assafelovic/gpt-researcher/pull/1737)
@@ -118,7 +120,7 @@ We forked the repo, created a clean branch, committed the two-line fix, and open
 
 We also filed issue #1738 to document the bug for anyone else hitting the same symptom -- silent report generation with no errors.
 
-The PR was reviewed and merged the same day by **Assaf Elovic**, the project creator. No back-and-forth, no revision requests. When the diagnosis is thorough and the fix is obviously correct, the review process reflects that. That's one of the things I genuinely appreciate about well-run open-source projects -- a clean contribution gets a clean merge.
+The PR was reviewed and merged the same day by **Assaf Elovic** -- creator of GPT Researcher and founder of Tavily. His review was a simple "this is great, thank you!" followed by an immediate merge. No back-and-forth, no revision requests. When the diagnosis is thorough and the fix is obviously correct, the review process reflects that. That kind of direct, appreciative response from a project's creator is genuinely one of the best parts of contributing to open source.
 
 ### What made this interesting
 
